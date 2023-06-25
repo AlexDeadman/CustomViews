@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomViewsTest</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="custom_view_group">Custom ViewGroup</string>
+    <string name="custom_text_view">Custom TextView</string>
+    <string name="gantt_chart">Gantt chart</string>
+</resources>

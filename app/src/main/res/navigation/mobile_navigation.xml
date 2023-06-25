@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_gantt_chart">
+
+    <fragment
+        android:id="@+id/navigation_custom_view_group"
+        android:name="ru.alexdeadman.customviewstest.ui.customviewgroup.CustomViewGroupFragment"
+        android:label="@string/custom_view_group"
+        tools:layout="@layout/fragment_custom_view_group" />
+
+    <fragment
+        android:id="@+id/navigation_gantt_chart"
+        android:name="ru.alexdeadman.customviewstest.ui.ganttchart.GanttChartFragment"
+        android:label="@string/gantt_chart"
+        tools:layout="@layout/fragment_gantt_chart" />
+</navigation>
